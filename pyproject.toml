@@ -1,0 +1,17 @@
+[project]
+name = "interp-project"
+version = "0.2.0"
+description = "VPD (adVersarial Parameter Decomposition) applied to SmolVLM-256M"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "modal",
+    "torch",
+    "transformers",
+    "accelerate",
+    "datasets",
+    "Pillow",
+]
+
+[tool.uv]
+package = false
